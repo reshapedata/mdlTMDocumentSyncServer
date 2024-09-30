@@ -2,9 +2,9 @@
 % Please edit documentation in R/purchaseReturn.R
 \name{purchaseReturn_sync_dmsServer}
 \alias{purchaseReturn_sync_dmsServer}
-\title{采购退料同步}
+\title{采购退料同步至数据中台}
 \usage{
-purchaseReturn_sync_dmsServer(input, output, session, dms_token)
+purchaseReturn_sync_dmsServer(input, output, session, dms_token, wms_token)
 }
 \arguments{
 \item{input}{输入}
@@ -14,12 +14,14 @@ purchaseReturn_sync_dmsServer(input, output, session, dms_token)
 \item{session}{会话}
 
 \item{dms_token}{口令}
+
+\item{wms_token}{}
 }
 \value{
 返回值
 }
 \description{
-采购退料同步
+采购退料同步至数据中台
 }
 \examples{
 purchaseReturn_sync_dmsServer()

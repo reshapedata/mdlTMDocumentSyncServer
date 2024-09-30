@@ -2,7 +2,7 @@
 % Please edit documentation in R/saleReturn.R
 \name{saleReturn_fbillno_view_dmsServer}
 \alias{saleReturn_fbillno_view_dmsServer}
-\title{销售退货按单据编号查询}
+\title{DMS销售退货按单据编号查询}
 \usage{
 saleReturn_fbillno_view_dmsServer(input, output, session, dms_token)
 }
@@ -19,7 +19,7 @@ saleReturn_fbillno_view_dmsServer(input, output, session, dms_token)
 返回值
 }
 \description{
-销售退货按单据编号查询
+DMS销售退货按单据编号查询
 }
 \examples{
 saleReturn_fbillno_view_dmsServer()

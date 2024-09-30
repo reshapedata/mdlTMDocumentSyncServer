@@ -2,7 +2,7 @@
 % Please edit documentation in R/purchaseReturn.R
 \name{purchaseReturn_fbillno_view_dmsServer}
 \alias{purchaseReturn_fbillno_view_dmsServer}
-\title{采购退料按单据编号查询}
+\title{DMS采购退料按单据编号查询}
 \usage{
 purchaseReturn_fbillno_view_dmsServer(input, output, session, dms_token)
 }
@@ -19,7 +19,7 @@ purchaseReturn_fbillno_view_dmsServer(input, output, session, dms_token)
 返回值
 }
 \description{
-采购退料按单据编号查询
+DMS采购退料按单据编号查询
 }
 \examples{
 purchaseReturn_fbillno_view_dmsServer()

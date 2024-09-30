@@ -2,9 +2,9 @@
 % Please edit documentation in R/purchaseInbound.R
 \name{purchaseInbound_sync_dmsServer}
 \alias{purchaseInbound_sync_dmsServer}
-\title{采购入库同步}
+\title{采购入库同步至数据中台}
 \usage{
-purchaseInbound_sync_dmsServer(input, output, session, dms_token)
+purchaseInbound_sync_dmsServer(input, output, session, dms_token, wms_token)
 }
 \arguments{
 \item{input}{输入}
@@ -14,12 +14,14 @@ purchaseInbound_sync_dmsServer(input, output, session, dms_token)
 \item{session}{会话}
 
 \item{dms_token}{口令}
+
+\item{wms_token}{}
 }
 \value{
 返回值
 }
 \description{
-采购入库同步
+采购入库同步至数据中台
 }
 \examples{
 purchaseInbound_sync_dmsServer()

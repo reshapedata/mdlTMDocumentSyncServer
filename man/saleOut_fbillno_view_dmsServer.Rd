@@ -2,7 +2,7 @@
 % Please edit documentation in R/saleOut.R
 \name{saleOut_fbillno_view_dmsServer}
 \alias{saleOut_fbillno_view_dmsServer}
-\title{销售出库按单据编号查询}
+\title{DMS销售出库按单据编号查询}
 \usage{
 saleOut_fbillno_view_dmsServer(input, output, session, dms_token)
 }
@@ -19,7 +19,7 @@ saleOut_fbillno_view_dmsServer(input, output, session, dms_token)
 返回值
 }
 \description{
-销售出库按单据编号查询
+DMS销售出库按单据编号查询
 }
 \examples{
 saleOut_fbillno_view_dmsServer()

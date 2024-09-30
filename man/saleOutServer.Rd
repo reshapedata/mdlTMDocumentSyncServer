@@ -4,7 +4,7 @@
 \alias{saleOutServer}
 \title{处理逻辑}
 \usage{
-saleOutServer(input, output, session, dms_token)
+saleOutServer(input, output, session, dms_token, wms_token)
 }
 \arguments{
 \item{input}{输入}

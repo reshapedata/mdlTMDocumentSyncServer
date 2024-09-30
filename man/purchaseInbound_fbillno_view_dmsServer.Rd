@@ -2,7 +2,7 @@
 % Please edit documentation in R/purchaseInbound.R
 \name{purchaseInbound_fbillno_view_dmsServer}
 \alias{purchaseInbound_fbillno_view_dmsServer}
-\title{采购入库按单据编号查询}
+\title{DMS采购入库按单据编号查询}
 \usage{
 purchaseInbound_fbillno_view_dmsServer(input, output, session, dms_token)
 }
@@ -19,7 +19,7 @@ purchaseInbound_fbillno_view_dmsServer(input, output, session, dms_token)
 返回值
 }
 \description{
-采购入库按单据编号查询
+DMS采购入库按单据编号查询
 }
 \examples{
 purchaseInbound_fbillno_view_dmsServer()

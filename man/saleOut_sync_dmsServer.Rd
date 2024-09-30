@@ -4,7 +4,7 @@
 \alias{saleOut_sync_dmsServer}
 \title{销售出库同步至数据中台}
 \usage{
-saleOut_sync_dmsServer(input, output, session, dms_token)
+saleOut_sync_dmsServer(input, output, session, dms_token, wms_token)
 }
 \arguments{
 \item{input}{输入}
@@ -14,6 +14,8 @@ saleOut_sync_dmsServer(input, output, session, dms_token)
 \item{session}{会话}
 
 \item{dms_token}{口令}
+
+\item{wms_token}{}
 }
 \value{
 返回值
